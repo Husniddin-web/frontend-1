@@ -1,3 +1,35 @@
-h1{
-    color: red;
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.user-card {
+    background-color: lightgrey;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
 }
