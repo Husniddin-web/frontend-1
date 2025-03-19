@@ -33,3 +33,11 @@ p {
     font-size: 14px;
     color: #333;
 }
+
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}

@@ -1,10 +1,13 @@
 const container = document.querySelector(".root");
 
-
+container.innerHTML = ` <div class="loading">
+        <h1>Loading...</h1>
+    </div>`
 
 fetch("https://dummyjson.com/users")
     .then((response) => response.json())
     .then((data) => {
+        container.innerHTML = ""
         data.users.forEach((user) => {
             container.innerHTML += `
       <div class="user-card">
